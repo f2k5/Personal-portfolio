@@ -1,0 +1,73 @@
+body
+{
+	/* #1a3059 */
+	background-color: #E1E2EB;
+	margin: 0;
+}
+
+h1
+{
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	opacity: 1; /* 1 = full brightness, 0 = invisible!*/
+	padding-top: 185px;
+	color: #545CA1;
+	text-align: center;
+	font-size: 65px;
+	font-family: Courier;
+	margin: 0; 
+}
+
+h2 /*software engineer */
+{
+	/*padding-bottom: 10px;*/
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	color: #545CA1;
+	text-align: center;
+	font-size: 42px;
+	font-family: Courier;
+	margin: 0; 
+	transition: all 0.65s ease;
+}
+
+h3
+{
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	color: #545CA1;
+	font-family: Courier;
+	margin: 0;
+	font-size: 65px;
+	text-align: center;
+}
+
+/*Button*/
+.coolbutton
+{
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	color: #545CA1;
+	font-family: Courier;
+	font-size: 65px;
+	margin: 620px;
+	font-weight: 100;
+
+}
+
