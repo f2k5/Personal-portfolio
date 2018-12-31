@@ -1,0 +1,46 @@
+body
+{
+	/* Original: #E1E2EB, 3A4660 3A4660 BDC4DE*/
+	background-color: #E1E2EB;
+}
+
+#name
+{
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    font-size: 70px;
+	padding-top: 30px;
+	color: #545CA1;;
+	text-align: center;
+	font-family: Courier New;
+}
+
+h3
+{
+	margin-top: -35px;
+	text-align: center;
+	color: #545CA1;
+	font-family: Courier New;
+}
+
+img[src*="picture.jpeg"]
+{
+	-webkit-box-shadow: -1px 2px 26px 13px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 2px 26px 13px rgba(0,0,0,0.75);
+	box-shadow: -1px 2px 26px 13px rgba(0,0,0,0.75);
+	/*Source for shadow: https://www.cssmatic.com/box-shadow*/
+	border-color: black;
+	border-style: double;
+	border-radius: 50%;
+}
+
+#gitiboi
+{
+	text-align: center;
+	margin-top: 35px;
+}
+
