@@ -7,6 +7,19 @@ body
 
 h1
 {
+
+	padding-top: 55px;
+	color: #545CA1;
+	text-align: left;
+	font-size: 120px;
+	font-family: Courier;
+	padding-left: 45px;
+	margin: 0; 
+
+}
+
+h2
+{
 	text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
@@ -14,15 +27,26 @@ h1
       -1px 1px 0 #000,
        1px 1px 0 #000;
 	opacity: 1; /* 1 = full brightness, 0 = invisible!*/
-	padding-top: 185px;
+	padding-top: 15px;
 	color: #545CA1;
-	text-align: center;
+	text-align: left;
+	padding-left: 45px;
 	font-size: 65px;
 	font-family: Courier;
 	margin: 0; 
 }
 
-h2 /*software engineer */
+p
+{
+	color: #545CA1;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 45px;
+	font-weight: bold;
+	font-family: Courier;
+}
+
+h3 /*software engineer */
 {
 	/*padding-bottom: 10px;*/
 	text-shadow:
@@ -32,14 +56,15 @@ h2 /*software engineer */
       -1px 1px 0 #000,
        1px 1px 0 #000;
 	color: #545CA1;
-	text-align: center;
+	text-align: left;
 	font-size: 42px;
 	font-family: Courier;
+	padding-left: 45px;
 	margin: 0; 
 	transition: all 0.65s ease;
 }
 
-h3
+h4
 {
 	text-shadow:
        3px 3px 0 #000,
@@ -51,23 +76,10 @@ h3
 	font-family: Courier;
 	margin: 0;
 	font-size: 65px;
-	text-align: center;
+	padding-left: 45px;
+	text-align: left;
 }
 
 /*Button*/
-.coolbutton
-{
-	text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-	color: #545CA1;
-	font-family: Courier;
-	font-size: 65px;
-	margin: 620px;
-	font-weight: 100;
 
-}
 
