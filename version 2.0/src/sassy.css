@@ -1,6 +1,7 @@
 /*
 Fonts I really liked so far: Courier New, Viga (Google fonts);
 My favorite blues: #E1E2EB (background), #545CA1 (text color);
+Viga - current name
 */
 
 body
@@ -18,16 +19,16 @@ body
       -1px 1px 0 #000,
        1px 1px 0 #000;
     font-size: 70px;
-	padding-top: -5px; /*30 original*/
+	padding-top: -10px; /*30 original*/
 	color: #545CA1;;
 	text-align: center;
 	font-family: 'Viga', sans-serif;
 }
 
 /*All descriptions*/
-h3
+h2
 {
-	font-size: 30px;
+	font-size: 25px;
 	margin-top: -35px;
 	text-align: center;
 	color: #545CA1;
@@ -44,6 +45,7 @@ img[src*="picture.jpeg"]
 	border-color: black;
 	border-style: double;
 	border-radius: 50%;
+	border-block-end-color: black;
 }
 
 /*Github button location*/
@@ -54,7 +56,7 @@ img[src*="picture.jpeg"]
 }
 
 /*Change colors of Python and Swift*/
-.py, .sw, .cs, .college
+.py, .sw, .cs, .college, .coder
 {
 	color: black;
 	font-weight: bold;
@@ -64,4 +66,14 @@ img[src*="picture.jpeg"]
 p 
 { 
 	margin:0 
+}
+
+.contact
+{
+	font-size: 20px;
+	font-family: 'Viga', sans-serif;
+	color: black;
+	border-style: double;
+	border-width: thin;
+	border-image: linear-gradient(black, black) 30;
 }
