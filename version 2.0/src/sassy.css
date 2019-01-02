@@ -1,3 +1,8 @@
+/*
+Fonts I really liked so far: Courier New, Viga (Google fonts);
+My favorite blues: #E1E2EB (background), #545CA1 (text color);
+*/
+
 body
 {
 	/* Original: #E1E2EB, 3A4660 3A4660 BDC4DE*/
@@ -13,20 +18,23 @@ body
       -1px 1px 0 #000,
        1px 1px 0 #000;
     font-size: 70px;
-	padding-top: 30px;
+	padding-top: -5px; /*30 original*/
 	color: #545CA1;;
 	text-align: center;
-	font-family: Courier New;
+	font-family: 'Viga', sans-serif;
 }
 
+/*All descriptions*/
 h3
 {
+	font-size: 30px;
 	margin-top: -35px;
 	text-align: center;
 	color: #545CA1;
-	font-family: Courier New;
+	font-family:  'Patrick Hand', sans-serif;
 }
 
+/*Profile picture*/
 img[src*="picture.jpeg"]
 {
 	-webkit-box-shadow: -1px 2px 26px 13px rgba(0,0,0,0.75);
@@ -38,9 +46,22 @@ img[src*="picture.jpeg"]
 	border-radius: 50%;
 }
 
+/*Github button location*/
 #gitiboi
 {
 	text-align: center;
-	margin-top: 35px;
+	margin-top: 25px;  /*30 original*/
 }
 
+/*Change colors of Python and Swift*/
+.py, .sw, .cs, .college
+{
+	color: black;
+	font-weight: bold;
+}
+
+/*Reduce gaps between p tags*/
+p 
+{ 
+	margin:0 
+}
