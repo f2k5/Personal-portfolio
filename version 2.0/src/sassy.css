@@ -7,7 +7,8 @@ Viga - current name
 body
 {
 	/* Original: #E1E2EB, 3A4660 3A4660 BDC4DE*/
-	background-color: #E1E2EB;
+	/*background-color: #E1E2EB;*/
+	background-image: url("bg.jpg");
 }
 
 #name
@@ -20,7 +21,7 @@ body
        1px 1px 0 #000;
     font-size: 70px;
 	padding-top: -10px; /*30 original*/
-	color: #545CA1;;
+	color: white;;
 	text-align: center;
 	font-family: 'Viga', sans-serif;
 }
@@ -31,7 +32,7 @@ h2
 	font-size: 25px;
 	margin-top: -35px;
 	text-align: center;
-	color: #545CA1;
+	color: white;
 	font-family:  'Patrick Hand', sans-serif;
 }
 
@@ -52,13 +53,19 @@ img[src*="picture.jpeg"]
 #gitiboi
 {
 	text-align: center;
-	margin-top: 25px;  /*30 original*/
+	margin-top: 15px;  /*30 original*/
+	/*background-color: powderblue;*/
+  	transition: background-color .5s;
+}
+
+#gitiboi:hover {
+  color: gold;
 }
 
 /*Change colors of Python and Swift*/
 .py, .sw, .cs, .college, .coder
 {
-	color: black;
+	color: #919DA8;
 	font-weight: bold;
 }
 
@@ -72,7 +79,7 @@ p
 {
 	font-size: 20px;
 	font-family: 'Viga', sans-serif;
-	color: black;
+	color: #919DA8;
 	border-style: double;
 	border-width: thin;
 	border-image: linear-gradient(black, black) 30;
